@@ -1,0 +1,727 @@
+/* I */
+  section._landing._1{
+    position: relative;
+    padding-top: 70px;
+  }
+  section._landing._1 p{
+    color:#2E373C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  }
+
+  section._landing._1 ._subtitle._1,
+  section._landing._1 ._text._1{
+    width: 90%;
+  }
+  section._landing._1 ._title._1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2E373C;
+    margin-bottom: 2rem;
+  }
+  section._landing._1 ._subtitle._1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: #2E373C;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  section._landing._1 figure._media{
+    position: relative;
+    overflow: hidden;
+    border-radius: 4rem;
+    margin-top: 3rem;
+    width: 500px;
+    height: 500px;
+    margin-top: 3rem;
+    max-width: 100%;
+  }
+  section._landing._1 figure._media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  section._landing._1 figure._media:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #ac040329, #ac040330, transparent);
+  }
+  section._landing._1 ._card {
+    background: #E9E9E9;
+    padding: 2rem;
+    border-radius: 0 3rem 0 3rem;
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  section._landing._1 ._card ._title {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  section._landing._1>div {
+    padding-top: 3rem;
+  }
+  section._landing._1 ._card {
+    position: sticky;
+    top: 100px;
+  }
+  section._landing._1 > div > ._2 {
+      position: relative;
+  }
+  section._landing._1 ._card ._btn{
+    margin: 2rem auto 0;
+  }
+  section._landing._1 figure._detail {
+    position: absolute;
+    top: 30%;
+    left: 35vw;
+    width: 60vw;
+    height: 70vw;
+    z-index: 0;
+  }
+  section._landing._1 figure._detail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  section._landing._1 > div {
+    position: relative;
+    z-index: 1;
+  }
+/* END I */
+/* II */
+  section._landing._2 {
+    padding: 6rem 0 3rem;
+    position: relative;
+    z-index: 1;
+  }
+  section._landing._2 h2._title {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2E373C;
+    font-weight: 400;
+  }
+  section._landing._2 .masonry {
+    padding-top: 3rem;
+  }
+  section._landing._2 .masonry-item {
+    box-shadow: 0 0 30px -5px #80b8c23b;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #fff;
+
+  }
+  section._landing._2 .masonry-item img._icon {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+  }
+  section._landing._2 .masonry-item h3._title {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2E373C;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+/* END II */
+/* III */
+  section._landing._3 {
+    padding: 3rem 0;
+    position: relative;
+  }
+  section._landing._3 ._head {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  section._landing._3 ._inside ._head ._title {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2E373C;
+    margin-bottom: 0;
+  }
+  section._landing._3 figure img {
+    width: 100%;
+  }
+/* END III */
+/* IV */
+  section._landing._4 {
+    position: relative;
+    padding: 5rem 0;
+  }
+  section._landing._4 figure._pic {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3rem 0 3rem;
+    margin-top: 3rem;
+    width: 100%;
+    height: 300px;
+    margin-top: 3rem;
+    max-width: 100%;
+    box-shadow: 0 0 30px -5px #80b8c24d;
+  }
+  section._landing._4 figure._pic:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #ac040329, #ac040330, transparent);
+  }
+  section._landing._4 figure._pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  section._landing._4 figure._pic ._data{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    grid-gap: 1rem;
+    padding: 2rem;
+    color: #fff;
+  }
+  section._landing._4 figure._pic ._data ._text {
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+
+  section._landing._4 figure._pic ._data ._number {
+      font-weight: 300;
+      font-size: 3rem;
+  }
+  section._landing._4 figure._pic ._data h3 {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1;
+  }
+
+  section._landing._4 ._in h2._title {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #2E373C;
+  }
+
+  section._landing._4 ._card {
+    background: #2E373C;
+    display: block;
+    width: calc(50% - 1rem);
+    padding: 2rem;
+    box-shadow: 0 0 30px -5px #80b8c24d;
+  }
+
+  section._landing._4 ._graphs{
+    display: flex;
+    grid-gap:1rem;
+    justify-content: space-between;
+  }
+  section._landing._4 ._card:first-of-type {
+    border-radius: 2rem 2rem 2rem 0rem;
+  }
+  section._landing._4 ._card:last-of-type {
+      border-radius: 2rem 0 2rem 2rem;
+  }
+  section._landing._4 ._card ._incard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* END IV  */ 
+/* V  */ 
+  section._landing._5 .row>._1 ._title {
+    margin-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2e373c;
+    line-height: 1;
+  }
+  section._landing._5 ._card {
+    background: #E9E9E9;
+    padding: 2rem;
+    border-radius: 0 3rem 0 3rem;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  section._landing._5 ._card ._title {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  section._landing._5>div {
+    padding-top: 3rem;
+  }
+  section._landing._5 ._card {
+    position: sticky;
+    top: 100px;
+  }
+  section._landing._5 > div > ._2 {
+      position: relative;
+  }
+  section._landing._5 ._card ._btn{
+    margin: 2rem auto 0;
+  }
+  section._landing._5 .accordion-item .accordion-body p, .accordion-item .accordion-body li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  section._landing._5>aside._2 {
+    width: 100%;
+    padding: 5rem 0;
+    background: #2E373C;
+    color: #fff;
+  }
+  section._landing._5 ._cta {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  section._landing._5 ._cta h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:2rem;
+    font-weight: 200;
+    margin-bottom: 0;
+  }
+  section._landing._5 {
+    position: relative;
+    overflow: hidden;
+  }
+  section._landing._5 figure._circles._1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  section._landing._5 figure._circles._1 {
+    position: absolute;
+    bottom: 0;
+    left: -50vw;
+    width: 100vw;
+    height: 50vw;
+    z-index: 0;
+  }
+  section._landing._5 > aside {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 5rem;
+  }
+  section._landing._5 aside._3 ._title {
+    margin: 5rem auto;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #2e373c;
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  section._landing._5 div#accordionFAQ {
+    border-radius: 2rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #2e373c;
+  }
+  section._landing._5 div#accordionFAQ .accordion-item button.accordion-button[aria-expanded="true"] {
+    background: #2e373c;
+  }
+  section._landing._5 div#accordionFAQ .accordion-item button.accordion-button[aria-expanded="true"] span, 
+  section._landing._5 div#accordionFAQ .accordion-item button.accordion-button[aria-expanded="true"] i {
+    color: #fff;
+  }
+  section._landing._5 div#accordionFAQ .accordion-item button.accordion-button span, 
+  section._landing._5 div#accordionFAQ .accordion-item button.accordion-button i {
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #2e373c;
+  }
+  section._landing._5 div#accordionFAQ button.accordion-button{
+    justify-content: flex-start;
+    padding:1rem;
+  }
+  section._landing._5 div#accordionFAQ .accordion-body {
+    padding: 2rem  !important;
+    background: #F6F5F8;
+  }
+  section._landing._5 div#accordionFAQ .accordion-body p,
+  section._landing._5 div#accordionFAQ .accordion-body li{
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #2e373c;
+  }
+  section._landing._5 div#accordionFAQ .accordion-body ul{
+    margin-bottom: 0;
+  }
+  section._landing._5 div#accordionFAQ button.accordion-button.collapsed {
+    background: #E8EAEC;
+  }
+  section._landing._5 .accordion .accordion-item{
+    border-bottom: 0;
+  }
+  section._landing._5 #accordionComoFunciona button.accordion-button:not(.collapsed) span, 
+  section._landing._5 #accordionComoFunciona button.accordion-button:not(.collapsed) span i {
+    color: #AC0403 !important;
+  }
+  div#accordionComoFunciona {
+    margin-bottom: 5rem;
+  }
+/* END V  */ 
+/* BUTTONS */
+  ._btn._1 {
+    background: #d81e04;
+    border: 0;
+    border-radius: 999rem;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    display: flex;
+    grid-gap:0.5rem;
+  }
+  ._btn_outline._1 {
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 999rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background: transparent;
+  }
+  ._btn_outline._1:hover{
+    border: 1px solid #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 999rem;
+    color: #fff;
+    background: transparent;
+  }
+/* END BUTTONS */
+
+/* PROGRESS */
+  .progress-circle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .progress-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  .university-logo {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .university-logo img {
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+  .progress-ring {
+    transform: rotate(-90deg);
+  }
+  .progress-ring__circle {
+    transition: stroke-dashoffset 0.6s ease 0s;
+    stroke-dasharray: 314; 
+    stroke-dashoffset: 314;
+  }
+  .university-logo ._ingraph .progress-value {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .university-logo ._ingraph{
+    text-align: center;
+  }
+  .progress-circle figure {
+    margin-bottom: 0;
+  }
+/* END PROGRESS */
+
+
+/* REPSOSNIVE */
+
+  @media(min-width:1200px){
+    section._landing._4 ._in,
+    section._landing._5>aside>div>.row{
+      padding: 2rem;
+    }
+    section._landing._5 ._cta ._info {
+      width: calc(80% - 1rem);
+    }
+    section._landing._5 ._cta ._action {
+      width: calc(20% - 1rem);
+      text-align: right;
+    }
+  }
+  @media(max-width:1199px) and (min-width:992px){
+    section._landing._4 ._in,
+    section._landing._5>aside>div>.row{
+      padding: 1rem;
+    }
+    section._landing._5 ._cta ._info {
+      width: calc(70% - 1rem);
+    }
+    section._landing._5 ._cta ._action {
+      width: calc(30% - 1rem);
+      text-align: right;
+    }
+  }
+  @media(max-width:1199px){
+    section._landing._1 ._info {
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+      margin: 0 auto 2rem;
+      max-width: calc(100% - 4rem);
+    }
+    section._landing._1 ._container._3 {
+      width: 100%;
+      max-width: 100%;
+    }
+    section._landing._1 ._info > figure {
+      order: 1;
+      width: 100%;
+      margin: 0 0 3rem;
+    }
+    section._landing._1 ._info > ._title {
+      order: 2;
+    }
+    section._landing._1 ._info > ._subtitle {
+      order: 3;
+    }
+    section._landing._1 ._info > ._text {
+      order: 4;
+      font-size: 1.3rem !important;
+    }
+    section._landing._1 ._card{
+      width: 700px;
+      max-width: 100%;
+    }
+    section._landing._3 ._head{
+      padding: 1rem 0 3rem;
+    }
+  }
+  @media(max-width:991px){
+    section._landing._1 ._title._1{
+      font-weight: 500;
+    }
+    section._landing._4 figure._pic{
+      margin-top: 0;
+    }
+    section._landing._4 ._in{
+      padding: 1rem 0 !important;
+    }
+    section._landing._4 > ._container > .row > ._1 > ._in{
+      padding-bottom: 0 !important;
+    }
+    section._landing._4 > ._container > .row > ._1 > ._in figure._pic._1 {
+      margin-bottom: 0;
+    }
+    section._landing._4 ._info {
+      text-align: center;
+      padding: 0 0 3rem;
+      width: calc(100% - 2rem);
+      margin: 0 auto;
+    }
+    section._landing._4 ._info ._title {
+      font-weight: 600 !important;
+    }
+    section._landing._4 ._info p{
+      font-size: 1.3rem !important;
+    }
+    section._landing._5 .row > ._1 ._title {
+      text-align: center;
+      font-size: 3rem;
+    }
+    section._landing._5 .accordion .accordion-header button.accordion-button span._text {
+      font-weight: 600;
+    }
+    section._landing._5 > aside._1 > ._container {
+      width: 100%;
+      max-width: 100%;
+    }
+    section._landing._5 > aside._1 > ._container .accordion {
+      width: 900px;
+      max-width: calc(100% - 2rem);
+      margin: 0 auto;
+    }
+    section._landing._5 > aside._1 > div > .row {
+      padding: 0 !important;
+      margin: 0;
+    }
+    section._landing._5 > aside._1 > div > .row > ._2 {
+      padding: 0;
+    }
+    section._landing._5 > aside._1 > div > .row > ._2 ._card {
+      width: 100%;
+      max-width: 100%;
+    }
+    section._landing._5 > aside._1 > div > .row > div {
+      padding: 0 !important;
+    }
+    section._landing._5 > aside._3 h2._title {
+      font-size: 3rem !important;
+    }
+    section._landing._5 figure._circles._1 {
+      position: absolute;
+      bottom: 0;
+      right: -35vw;
+      width: 100vw;
+      height: 100vw;
+      z-index: 0;
+      left: inherit;
+    }
+  }
+  @media(max-width:991px) and (min-width:768px){
+    section._landing._4 ._in,
+    section._landing._5>aside>div>.row{
+      padding: 1rem;
+    }
+    section._landing._5 ._cta ._info {
+      width: calc(60% - 1rem);
+    }
+    section._landing._5 ._cta ._action {
+      width: calc(40% - 1rem);
+      text-align: right;
+    }
+    section._landing._2 h2._title > br {
+      display: none;
+    }
+    section._landing._2 h2._title {
+      font-size: 3rem;
+      font-weight: 500;
+      width: 700px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    section._landing._2 .masonry{
+      width: 700px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    section._landing._2 .masonry-item > ._in {
+      display: flex;
+      grid-gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    section._landing._2 .masonry-item > ._in img {
+      width: 60px;
+      margin: 0;
+    }
+    section._landing._2 .masonry-item > ._in ._title {
+      width: calc(80% - 1rem - 90px);
+      font-size: 2rem !important;
+      line-height: 1;
+      margin-bottom: 0 !important;
+    }
+    section._landing._2 .masonry-item > ._in p {
+      width: 100%;
+      font-size: 1.3rem;
+    }
+  }
+  @media(max-width:767px) and (min-width: 576px){
+    section._landing._4 ._in,
+    section._landing._5>aside>div>.row{
+      padding: 1rem;
+    }
+  }
+  @media(max-width:767px){
+    section._landing._5 ._cta ._info {
+      width: 100%;
+      text-align: center;
+    }
+    section._landing._5 ._cta ._action {
+      width: 100%;
+      text-align: center;
+    }
+    section._landing._2 h2._title > br {
+      display: none;
+    }
+    section._landing._2 h2._title {
+      font-size: 2.3rem;
+      font-weight: 500;
+      width: 700px;
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    section._landing._1 ._subtitle._1 {
+      width: 100% !important;
+      font-size: 1.5rem !important;
+    }
+    section._landing._1 ._text{
+      width: 100% !important;
+      font-size: 1rem !important;
+    }
+    section._landing._1 ._card{
+      padding: 2rem 1rem !important;
+    }
+    section._landing._2 .masonry{
+      width: 700px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    section._landing._2 .masonry-item > ._in {
+      display: flex;
+      grid-gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    section._landing._2 .masonry-item > ._in img {
+      width: 60px;
+      margin: 0;
+    }
+    section._landing._2 .masonry-item > ._in ._title {
+      width: calc(80% - 1rem - 90px);
+      font-size: 2rem !important;
+      line-height: 1;
+      margin-bottom: 0 !important;
+    }
+    section._landing._2 .masonry-item > ._in p {
+      width: 100%;
+      font-size: 1.3rem;
+    }
+  }
+  @media(max-width:575px){
+    section._landing._4 ._in,
+    section._landing._5>aside>div>.row{
+      padding: 1rem;
+    }
+  }
